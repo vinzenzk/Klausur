@@ -1,9 +1,12 @@
 import java.util.ArrayList;
 
 public class Kunde extends Mensch{
+    // Die Unterklasse Kunde erweitert die Oberklasse Mensch
     int kundennummer;
     int alter;
-    Medien[] ausleihen = new Medien[4];
+    // Die maximale Anzahl an Medien, welche einem Kunden zugeordnet werden können
+    Medien[] ausleihen = new Medien[4]; 
+    // Eine Liste mit allen Verwarnungen, welche der Kunde bereits erhalten hat
     ArrayList<Verwarnung> verwarnungen = new ArrayList<>();
 
     public Kunde(String vorname, String nachname, int alter, int kundennummer){

@@ -1,4 +1,5 @@
 public class Schallplatte extends Medien{
+    // Unterklasse der Oberklasse Medien
     boolean darfVerliehenwerden;
 
     public Schallplatte(String titel, int FSK, int laenge, boolean verliehen, boolean darfVerliehenwerden){
@@ -12,6 +13,7 @@ public class Schallplatte extends Medien{
         return darfVerliehenwerden;
     }
 
+    // Methode zeigeDaten gibt, wenn aufgerufen, alle gegebenen Daten aus, inlusive der jeweiligen unterschiedlichen Eigenschaften
     public void zeigeDaten(){
         System.out.println(getTitel() + " " + getFSK() + " " + getLaenge() + " " + " " + getDarfVerliehenwerden());
     }

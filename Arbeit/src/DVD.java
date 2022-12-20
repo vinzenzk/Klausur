@@ -1,4 +1,5 @@
 public class DVD extends Medien{
+    // Unterklasse DVD der Oberklasse Medien
     boolean isFullHD;
 
     public DVD(String titel, int FSK, int laenge, boolean verliehen, boolean isFullHD){
@@ -12,6 +13,7 @@ public class DVD extends Medien{
         return isFullHD;
     }
 
+    // Methode zeigeDaten gibt, wenn aufgerufen, alle gegebenen Daten aus, inlusive der jeweiligen unterschiedlichen Eigenschaften
     public void zeigeDaten(){
         System.out.println(getTitel() + " " + getFSK() + " " + getLaenge() + " " + " " + getIsFullHD());
     }

@@ -1,4 +1,5 @@
 public class Mitarbeiter extends Mensch{
+    // Die Unterklasse Mitarbeiter erweitert die Oberklasse Mensch
     int mitarbeiternummer;
 
     public Mitarbeiter(String vorname, String nachname, int mitarbeiternummer){

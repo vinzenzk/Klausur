@@ -1,4 +1,5 @@
 public abstract class Medien {
+    // Abstrakte Oberklasse, von der selbst also keine Objekte erstellt werden können
     String titel;
     int FSK;
     int laenge;
@@ -12,6 +13,8 @@ public abstract class Medien {
     }
 
     public abstract void zeigeDaten();
+
+    // Abstrakte Methode, welche jede Unterklasse gezwungenermaßen enthalten muss
 
     public void setFSK(int fSK) {
         FSK = fSK;

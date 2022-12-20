@@ -1,4 +1,7 @@
 public abstract class Mensch {
+    
+    // Abstrakte Oberklasse, von der selbst also keine Objekte erstellt werden können
+
     String vorname;
     String nachname;
 

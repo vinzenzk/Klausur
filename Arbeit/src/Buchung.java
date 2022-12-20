@@ -1,4 +1,5 @@
 public class Buchung {
+    // Eine Buchung verbindet einen Kunden mit einem Objekt einer der Unterklassen von Medien
     Kunde kunde;
     Medien medium;
 

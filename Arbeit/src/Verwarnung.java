@@ -1,4 +1,5 @@
 public class Verwarnung {
+    // Die Klasse Verwarnung verbindet Datum und Grund der Verwarnung
     String datum;
     String grund;
 
