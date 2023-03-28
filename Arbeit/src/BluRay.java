@@ -13,6 +13,8 @@ public class BluRay extends Medien {
         return is3D;
     }
 
+    //shdshd
+
     // Methode zeigeDaten gibt, wenn aufgerufen, alle gegebenen Daten aus, inlusive der jeweiligen unterschiedlichen Eigenschaften
     public void zeigeDaten(){
         System.out.println(getTitel() + " " + getFSK() + " " + getLaenge() + " " + " " + getIs3d());
