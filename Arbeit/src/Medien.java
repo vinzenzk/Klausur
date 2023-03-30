@@ -3,7 +3,8 @@ public abstract class Medien {
     String titel;
     int FSK;
     int laenge;
-    boolean verliehen;
+    
+
 
     public Medien(String titel, int FSK, int laenge, boolean verliehen){
         setFSK(FSK);
